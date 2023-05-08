@@ -1,0 +1,95 @@
+@media screen and (max-width: 992px) {
+
+    .research_border {
+        width: 40vw;
+    }
+
+    .research {
+        height: 50px;
+        width: 23vw;
+    }   
+
+    .research_filter {
+        width: 100%;
+        padding-right: 10%;
+    }
+
+    .filters {
+        gap: 5%;
+        width: 100%;
+    }
+
+    .research_filter p {
+        font-size: 14px;
+    }
+
+    .media {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .menu {
+        margin-right: 20px;
+    }
+
+    .lodging {
+        width: 100%;
+    }
+
+    .lodging2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .media2 {
+        display: flex;
+    }
+
+    .hotel2 {
+        width: 31%;
+        margin-bottom: 10px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10PX
+    }
+
+    .imageSize2 img {
+        object-fit: cover;
+    }
+
+    .textReservation2 h4 {
+        width: 111px;
+    }
+
+    .textReservation2 p {
+        width: 132px;
+    }
+
+    .popular_star1 {
+        padding-top: 68px;
+    }
+    
+    .popular_star2 {
+        padding-top: 48px;
+    }
+    
+    .popular_star3 {
+        padding-top: 67px;
+    }
+    
+    .activity {
+        width: 80%;
+        height: 320px;
+    }
+
+    .textActivity {
+        margin-top: -12px;
+    }
+
+    .imageSize3 {
+        height: 85%;
+        width: 100%;
+    }
+}

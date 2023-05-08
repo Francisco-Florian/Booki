@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+/*general*/
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.borderNone {
+    border: none;
+}
+
+.texteGris {
+    font-weight: bold;
+}
+
+/*HEADER*/
+
+body {
+    font-family: "raleway";
+    max-width: 1400px;
+    margin: auto;
+}
+
+.margin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.top_page {
+    padding: 10px;
+}
+
+.main_logo {
+    display: flex;
+    height: 20px;
+}
+
+.menu {
+    width: 15%;
+    gap: 20px;
+    height: 50px;
+    margin-top: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
+    padding-top: 24px;
+    text-align: end;
+}
+
+.main_title h1 {
+    font-size: 1.3em;
+}
+
+.research_border {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+
+.research_icon {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+}
+
+.research {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.research_button {
+    height: 50px;
+    width: 140px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    background-color: #0065FC;
+}
+
+.research_button i {
+    display: none;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.icon_info {
+    margin-right: 10px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    color: #0065FC;
+}
+
+/*NAV*/
+.filter {
+    display: flex;
+    width: 100%;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+    font-weight: bold;
+    gap: 3%;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+.research_filter {
+    border: 1px #D9D9D9 solid;
+    border-radius: 30px;
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.animal {
+    width: 11vw;
+}
+
+.research_filter i {
+    color: #0065FC;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.research_filter:hover {
+    background-color: #deebff;
+    cursor: pointer;
+}
+
+/*SECTION 1*/
+
+.imageSize {
+    display: flex;
+    height: 60%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageSize img {
+    width: 100%;
+    border-radius: 20px 20px  0px 0px;
+}
+
+.lodging {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.lodging_title {
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 26px;
+    font-size: 24px;
+}
+
+.lodging_title h3 {
+    width: 400px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.space {
+    padding-right: 1vw;
+}
+
+.hotel {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 199px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 40px;
+    box-shadow: 0px 5px 5px #D9D9D9;
+}
+
+.hotel:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.9);
+    opacity: 0.9;
+}
+
+.more {
+    font-size: 1.6em;
+    margin-left: 40px;
+}
+
+.blue {
+    color: #0065FC;
+}
+
+.gray {
+    color: #F2F2F2;
+}
+
+.textReservation {
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.textReservation h4 {
+    height: 1px;
+    font-size: 15px;
+}
+
+.textReservation p {
+    height: 5px;
+    font-size: 14px;
+}
+
+.lodging2 {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 35%;
+    height: 625px;
+}
+
+.lodging_title2 {
+    padding-left: 40px;
+    padding-top: 50px;
+    width: 80%;
+    height: 26px;
+    font-size: 22px;
+}
+
+.hotel2 {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 144px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px #D9D9D9;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40PX;
+}
+
+.hotel2:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.9);
+    opacity: 0.9;
+}
+
+.imageSize2 {
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.imageSize2 img {
+    width: 100%;
+    height: 97.5%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.textReservation2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.textReservation2 h4 {
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    width: 169px;
+    height: auto;
+    display: flex;
+}
+
+.textReservation2 p {
+    font-size: 14px;
+    margin: 10px 0px 25px 0px;
+    display: flex;
+}
+
+.popular_star1 {
+    padding-top: 12px;
+}
+
+.popular_star2 {
+    padding-top: 12px;
+}
+
+.popular_star3 {
+    padding-top: 28px;
+}
+
+/*SECTION 2*/
+
+.activity {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    box-shadow: 0px 5px 5px #F2F2F2;
+}
+
+.activity h4 {
+    margin-left: 19px;
+}
+
+.imageSize3 {
+    height: 85%;
+    width: 100%;
+}
+
+.imageSize3 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.chrome {
+    width: 100%;
+}
+
+.blocActivities {
+    width: 100%;
+    height: 389px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.activity:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.9);
+    opacity: 0.9;
+}
+
+.activities {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textActivity h4 {
+    font-size: 16px;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.link {
+    background-color: #F2F2F2;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 28%;
+    align-items: baseline;
+}
+
